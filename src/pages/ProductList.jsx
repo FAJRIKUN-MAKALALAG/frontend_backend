@@ -8,7 +8,7 @@ export default function ProductList() {
     fetch("http://localhost:8080/product")
       .then((res) => res.json())
       .then((data) => setProducts(data))
-      .catch((err) => console.error("Gagal fetch produk:", err));
+      .catch((err) => console.error("Gagal fetch produk !!:", err));
   };
 
   useEffect(() => {
