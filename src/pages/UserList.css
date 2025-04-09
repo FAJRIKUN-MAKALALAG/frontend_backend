@@ -1,0 +1,37 @@
+.user-list-container {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+}
+
+.user-list-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.user-table th,
+.user-table td {
+  padding: 12px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.user-table th {
+  background-color: #f4f4f4;
+}
+
+.user-image {
+  max-width: 80px;
+  max-height: 80px;
+  object-fit: cover;
+  border-radius: 6px;
+}

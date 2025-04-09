@@ -1,0 +1,38 @@
+/* Form Style */
+.product-form {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background-color: #f9f9f9;
+}
+
+.product-form input,
+.product-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 0.5rem 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.button-group {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+button {
+  padding: 8px 16px;
+  border: none;
+  background-color: #2d89ef;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button[type="button"] {
+  background-color: #888;
+}
